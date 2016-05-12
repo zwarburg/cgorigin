@@ -1,4 +1,4 @@
 all:
-	clang -Wall -framework Foundation -framework ApplicationServices main.m -o cgorigin
+	clang -Wall -framework Foundation -framework ApplicationServices main.m -o arrange_displays
 clean:
-	rm cgorigin
+	rm arrange_displays
